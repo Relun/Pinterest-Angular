@@ -6,6 +6,12 @@ export const environment = {
   production: false
 };
 
+// export const environment = {
+//   production: false,
+//   PIXABAY_API_KEY:'13350544-a3f08c7b93eea84f0a107aba1',
+//   PIXABAY_API_URL:'https://pixabay.com/api/?key='
+// };
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
