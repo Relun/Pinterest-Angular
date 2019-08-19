@@ -1,8 +1,9 @@
  export interface Post{
 
-    "albumId": number;
-    "id": number;
-    "title": string;
-    "url": any ;
-    "thumbnailUrl": any;
+    "id": string;
+    "author": string;
+    "namePhoto": string;
+    "description": string;
+    "urlPhoto":string;
+
 }
