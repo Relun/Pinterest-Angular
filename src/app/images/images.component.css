@@ -3,3 +3,12 @@
     -moz-column-count: 5; */
     column-count: 5
 }
+.iconito{
+   
+    float: left;
+    border-radius: 10%;
+
+}
+.author{
+float: left;
+}

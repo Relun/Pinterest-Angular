@@ -13,17 +13,28 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Enviar</button>
+                <button type="button" class="btn btn-danger">Guardar</button>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
+              
             </div>
             <div class="modal-body">
-              ...
+             <h3>{{post.namePhoto}}</h3>
+             <img class="card-img" src="{{post.urlPhoto}}"  alt="card">
+             <div class="iconito">
+             <img class="icon" src=".\assets\img\iconito.png"  alt="icon">
+            </div>
+            <div class="author">
+             <h5>{{post.author}}</h5>
+             <p>{{post.description}}</p>
+            </div>
+             <button type="button" class="btn btn-secondary btn-lg btn-block" data-dismiss="modal">-></button>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <h4>Comentarios</h4>
+             
             </div>
           </div>
         </div>
